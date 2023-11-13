@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestTreeTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,17 +28,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Y7OG9OSwS48Ze5zaAuG4kgRYRZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms/data-structures-and-algorithms/src/main/java/com/ty/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
@@ -44,7 +64,7 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestTreeTraversal.preOrder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ty.Main" />
       <module name="java-data-structures-and-algorithms" />
@@ -58,8 +78,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTreeTraversal.preOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestTreeTraversal" />
+      <option name="METHOD_NAME" value="preOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTraversal.preOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TreeTraversal" />
+      <option name="METHOD_NAME" value="preOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTreeTraversal.preOrder" />
+        <item itemvalue="JUnit.TreeTraversal.preOrder" />
+        <item itemvalue="JUnit.java-data-structures-and-algorithms中的com.ty.binaryTree" />
         <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
@@ -72,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699873052432</updated>
-      <workItem from="1699873053418" duration="257000" />
+      <workItem from="1699873053418" duration="1830000" />
     </task>
     <servers />
   </component>
@@ -87,6 +142,10 @@
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
