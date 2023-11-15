@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestLeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-structures-and-algorithms/com/ty/binaryTree/TestTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-structures-and-algorithms/com/ty/binaryTree/TestTreeTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestTreeTraversal.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +50,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -171,7 +161,8 @@
       <updated>1699873052432</updated>
       <workItem from="1699873053418" duration="2547000" />
       <workItem from="1699946862098" duration="6641000" />
-      <workItem from="1700009435777" duration="8000000" />
+      <workItem from="1700009435777" duration="8468000" />
+      <workItem from="1700049702864" duration="5000" />
     </task>
     <servers />
   </component>
