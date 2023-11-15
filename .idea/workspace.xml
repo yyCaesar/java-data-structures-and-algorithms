@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestLeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-structures-and-algorithms/com/ty/binaryTree/TestTreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-structures-and-algorithms/com/ty/binaryTree/TestTreeTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestTreeTraversal.java" afterDir="false" />
     </list>
@@ -63,16 +70,51 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTreeTraversal.order">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ty.Main" />
+  <component name="RunManager" selected="JUnit.TestLeetCode.maxDepth_nonRecursion">
+    <configuration name="TestLeetCode.isSymmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.*" />
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
+      <option name="METHOD_NAME" value="isSymmetric" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLeetCode.maxDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
+      <option name="METHOD_NAME" value="maxDepth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLeetCode.maxDepth_nonRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
+      <option name="METHOD_NAME" value="maxDepth_nonRecursion" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,28 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTraversal.preOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ty.binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TreeTraversal" />
-      <option name="METHOD_NAME" value="preOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLeetCode.maxDepth_nonRecursion" />
+        <item itemvalue="JUnit.TestLeetCode.maxDepth" />
+        <item itemvalue="JUnit.TestLeetCode.isSymmetric" />
         <item itemvalue="JUnit.TestTreeTraversal.order" />
         <item itemvalue="JUnit.TestTreeTraversal.preOrder" />
-        <item itemvalue="JUnit.TreeTraversal.preOrder" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +170,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699873052432</updated>
       <workItem from="1699873053418" duration="2547000" />
-      <workItem from="1699946862098" duration="6321000" />
+      <workItem from="1699946862098" duration="6641000" />
+      <workItem from="1700009435777" duration="8000000" />
     </task>
     <servers />
   </component>
@@ -159,14 +187,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestTreeTraversal.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/TreeTraversal.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="9" />
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

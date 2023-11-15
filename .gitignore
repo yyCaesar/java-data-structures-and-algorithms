@@ -11,6 +11,9 @@ target/
 *.iws
 *.iml
 *.ipr
+.idea
+out
+
 
 ### Eclipse ###
 .apt_generated
@@ -37,5 +40,7 @@ build/
 ### Mac OS ###
 .DS_Store
 out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class
+out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class
+out/test/java-data-structures-and-algorithms/com/ty/binaryTree/TestTreeTraversal.class
 out/production/java-data-structures-and-algorithms/com/ty/binaryTree/TreeTraversal.class
 out/test/java-data-structures-and-algorithms/com/ty/binaryTree/TestTreeTraversal.class
