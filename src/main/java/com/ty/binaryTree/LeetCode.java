@@ -3,6 +3,7 @@ package com.ty.binaryTree;
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Queue;
+import java.util.Stack;
 
 public class LeetCode {
 
@@ -11,7 +12,36 @@ public class LeetCode {
      * 最大深度（栈非递归）
      * */
     public int maxDepth_Stack_nonRecursion(TreeNode<Integer> node){
-        return 0;
+
+        Stack<TreeNode<Integer>> stack = new Stack<>();
+        TreeNode<Integer> current = node;
+        TreeNode<Integer> pop = null;
+        int max = 0;
+
+        while (current != null || !stack.isEmpty()){
+
+            if (current != null){
+                //左子树不为空，一直找，找到为null为止
+                stack.push(current);
+                int size = stack.size();
+                if (max < size){
+                    max = size;
+                }
+                current = current.left;
+            } else {
+                //左子树已为null
+                TreeNode<Integer> peek = stack.peek();
+                if (peek.right == null || peek.right == pop){
+                    //右子树为null
+                    pop = stack.pop();
+                } else {
+                    current = peek.right;
+                }
+            }
+        }
+
+
+        return max;
     }
 
 

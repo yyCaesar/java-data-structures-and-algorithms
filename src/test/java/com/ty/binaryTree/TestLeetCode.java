@@ -22,10 +22,12 @@ public class TestLeetCode {
 
     @Test
     public void maxDepth(){
-        TreeNode<Integer> root = new TreeNode<Integer>(1,
-             null,null);
+        TreeNode<Integer> root = new TreeNode<>(1,
+                new TreeNode<>(2, new TreeNode<>(3, new TreeNode<>(4), null), null),
+                new TreeNode<>(2, null, null));
 
-        int level = new LeetCode().maxDepth(root);
+//        int level = new LeetCode().maxDepth(root);
+        int level = new LeetCode().maxDepth_Stack_nonRecursion(root);
         System.out.println(level);
     }
 
