@@ -5,6 +5,22 @@ import org.junit.Test;
 public class TestLeetCode {
 
     @Test
+    public void overTurn(){
+        /**
+         *      1
+         *    2  2
+         *   3
+         *  4
+         * */
+        TreeNode<Integer> root = new TreeNode<>(1,
+                new TreeNode<>(2, new TreeNode<>(3, new TreeNode<>(4), null), null),
+                new TreeNode<>(2, null, null));
+
+        TreeNode<Integer> node = new LeetCode().overTurn(root);
+    }
+
+
+    @Test
     public void maxDepth_nonRecursion(){
         /**
          *      1

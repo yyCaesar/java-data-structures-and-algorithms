@@ -63,7 +63,7 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLeetCode.maxDepth">
+  <component name="RunManager" selected="JUnit.TestLeetCode.overTurn">
     <configuration name="TestLeetCode.isSymmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
@@ -112,6 +112,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLeetCode.overTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
+      <option name="METHOD_NAME" value="overTurn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestTreeTraversal.order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
@@ -128,29 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTreeTraversal.preOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ty.binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestTreeTraversal" />
-      <option name="METHOD_NAME" value="preOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLeetCode.overTurn" />
         <item itemvalue="JUnit.TestLeetCode.maxDepth" />
         <item itemvalue="JUnit.TestLeetCode.maxDepth_nonRecursion" />
         <item itemvalue="JUnit.TestLeetCode.isSymmetric" />
         <item itemvalue="JUnit.TestTreeTraversal.order" />
-        <item itemvalue="JUnit.TestTreeTraversal.preOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,8 @@
       <workItem from="1699946862098" duration="6641000" />
       <workItem from="1700009435777" duration="8468000" />
       <workItem from="1700049702864" duration="5000" />
-      <workItem from="1700124096392" duration="1439000" />
+      <workItem from="1700124096392" duration="1623000" />
+      <workItem from="1700211329618" duration="1281000" />
     </task>
     <servers />
   </component>
@@ -193,8 +194,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java</url>
-          <line>97</line>
+          <line>119</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestLeetCode.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

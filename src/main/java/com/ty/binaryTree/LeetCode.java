@@ -8,6 +8,28 @@ import java.util.Stack;
 public class LeetCode {
 
 
+    public TreeNode<Integer> overTurn(TreeNode<Integer> node){
+         overTurn_recursion(node);
+        return node;
+    }
+
+    private void overTurn_recursion(TreeNode<Integer> node){
+
+        if (node == null){
+            return;
+        }
+
+        TreeNode<Integer> temp = node.left;
+        node.left = node.right;
+        node.right = temp;
+
+        overTurn_recursion(node.left);
+        overTurn_recursion(node.right);
+
+    }
+
+
+
     /**
      * 最大深度（栈非递归）
      * */
