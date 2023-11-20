@@ -8,6 +8,34 @@ import java.util.Stack;
 public class LeetCode {
 
 
+    /**
+     * 根据后缀表达式建立树
+     * */
+    public TreeNode<String> postfixExpressions(String[] strArr){
+
+        Stack<TreeNode<String>> stack = new Stack<>();
+        for (String str : strArr){
+            switch (str){
+                case "+":
+                case "-":
+                case "*":
+                case "/":
+                    TreeNode<String> right = stack.pop();
+                    TreeNode<String> left = stack.pop();
+                    TreeNode<String> parrent = new TreeNode<>(str);
+                    parrent.left = left;
+                    parrent.right = right;
+                    stack.push(parrent);
+                    break;
+                default:
+                    stack.push(new TreeNode<>(str));
+                    break;
+            }
+        }
+        return stack.peek();
+    }
+
+
     public TreeNode<Integer> overTurn(TreeNode<Integer> node){
          overTurn_recursion(node);
         return node;

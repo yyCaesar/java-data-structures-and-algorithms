@@ -5,6 +5,14 @@ import org.junit.Test;
 public class TestLeetCode {
 
     @Test
+    public void postfixExpressions(){
+        String[] strArr = {"2","1","-","3","*"};
+        LeetCode leetcode =  new LeetCode();
+        TreeNode<String> node = leetcode.postfixExpressions(strArr);
+    }
+
+
+    @Test
     public void overTurn(){
         /**
          *      1
