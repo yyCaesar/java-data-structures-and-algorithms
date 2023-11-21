@@ -5,6 +5,23 @@ import org.junit.Test;
 public class TestLeetCode {
 
     @Test
+    public void sequencePrint(){
+        /**
+         *      1
+         *    2  2
+         *   3
+         *  4
+         * */
+        TreeNode<Integer> root = new TreeNode<>(1,
+                new TreeNode<>(2, new TreeNode<>(3, new TreeNode<>(4), null), null),
+                new TreeNode<>(2, null, null));
+
+        LeetCode leetcode =  new LeetCode();
+        leetcode.sequencePrint(root);
+
+    }
+
+    @Test
     public void postfixExpressions(){
         String[] strArr = {"2","1","-","3","*"};
         LeetCode leetcode =  new LeetCode();

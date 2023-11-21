@@ -63,23 +63,7 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLeetCode.postfixExpressions">
-    <configuration name="TestLeetCode.isSymmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ty.binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
-      <option name="METHOD_NAME" value="isSymmetric" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestLeetCode.sequencePrint">
     <configuration name="TestLeetCode.maxDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
@@ -144,13 +128,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLeetCode.sequencePrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
+      <option name="METHOD_NAME" value="sequencePrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLeetCode.sequencePrint" />
         <item itemvalue="JUnit.TestLeetCode.postfixExpressions" />
         <item itemvalue="JUnit.TestLeetCode.overTurn" />
         <item itemvalue="JUnit.TestLeetCode.maxDepth" />
         <item itemvalue="JUnit.TestLeetCode.maxDepth_nonRecursion" />
-        <item itemvalue="JUnit.TestLeetCode.isSymmetric" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,8 @@
       <workItem from="1700124096392" duration="1623000" />
       <workItem from="1700211329618" duration="1453000" />
       <workItem from="1700443673670" duration="4000" />
-      <workItem from="1700470976929" duration="612000" />
+      <workItem from="1700470976929" duration="1389000" />
+      <workItem from="1700563164317" duration="1049000" />
     </task>
     <servers />
   </component>
@@ -196,13 +197,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java</url>
-          <line>147</line>
+          <line>179</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestLeetCode.java</url>
-          <line>22</line>
+          <line>43</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
@@ -210,5 +216,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.ty.binaryTree.TreeNode" memberName="left" />
+        <PinnedItemInfo parentTag="com.ty.binaryTree.TreeNode" memberName="right" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
