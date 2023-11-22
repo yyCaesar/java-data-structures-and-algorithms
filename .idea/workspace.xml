@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ty/binaryTree/TestLeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/recursion/recursionFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/recursion/TestRecursionFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLeetCode.sequencePrint">
+  <component name="RunManager" selected="JUnit.TestRecursionFunc.insertion">
     <configuration name="TestLeetCode.maxDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
@@ -75,22 +75,6 @@
       <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
       <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
       <option name="METHOD_NAME" value="maxDepth" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLeetCode.maxDepth_nonRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ty.binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
-      <option name="METHOD_NAME" value="maxDepth_nonRecursion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,13 +128,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRecursionFunc.insertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.recursion" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.recursion.TestRecursionFunc" />
+      <option name="METHOD_NAME" value="insertion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRecursionFunc.insertion" />
         <item itemvalue="JUnit.TestLeetCode.sequencePrint" />
         <item itemvalue="JUnit.TestLeetCode.postfixExpressions" />
         <item itemvalue="JUnit.TestLeetCode.overTurn" />
         <item itemvalue="JUnit.TestLeetCode.maxDepth" />
-        <item itemvalue="JUnit.TestLeetCode.maxDepth_nonRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,8 @@
       <workItem from="1700211329618" duration="1453000" />
       <workItem from="1700443673670" duration="4000" />
       <workItem from="1700470976929" duration="1389000" />
-      <workItem from="1700563164317" duration="1049000" />
+      <workItem from="1700563164317" duration="1150000" />
+      <workItem from="1700651855388" duration="436000" />
     </task>
     <servers />
   </component>
@@ -209,6 +210,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/binaryTree/LeetCode.java</url>
           <line>25</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ty/recursion/TestRecursionFunc.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
