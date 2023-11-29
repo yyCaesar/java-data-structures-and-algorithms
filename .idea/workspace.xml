@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/avlTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/redBlackTree/RedBlackTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <workItem from="1700470976929" duration="1389000" />
       <workItem from="1700563164317" duration="1150000" />
       <workItem from="1700651855388" duration="567000" />
-      <workItem from="1701246438404" duration="60000" />
+      <workItem from="1701246438404" duration="870000" />
     </task>
     <servers />
   </component>
