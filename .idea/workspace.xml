@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/linkedList/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/linkedList/TestSingleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/redBlackTree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/redBlackTree/RedBlackTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,52 +35,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms/data-structures-and-algorithms/src/main/java/com/ty/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms/data-structures-and-algorithms/src/main/java/com/ty/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms\src\test" />
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRecursionFunc.insertion">
-    <configuration name="TestLeetCode.maxDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ty.binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
-      <option name="METHOD_NAME" value="maxDepth" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestSingleLinkedList.addFirst">
     <configuration name="TestLeetCode.overTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
@@ -143,13 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSingleLinkedList.addFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.linkedList.TestSingleLinkedList" />
+      <option name="METHOD_NAME" value="addFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSingleLinkedList.addFirst" />
         <item itemvalue="JUnit.TestRecursionFunc.insertion" />
         <item itemvalue="JUnit.TestLeetCode.sequencePrint" />
         <item itemvalue="JUnit.TestLeetCode.postfixExpressions" />
         <item itemvalue="JUnit.TestLeetCode.overTurn" />
-        <item itemvalue="JUnit.TestLeetCode.maxDepth" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,10 @@
       <workItem from="1700470976929" duration="1389000" />
       <workItem from="1700563164317" duration="1150000" />
       <workItem from="1700651855388" duration="567000" />
-      <workItem from="1701246438404" duration="4263000" />
+      <workItem from="1701246438404" duration="14130000" />
+      <workItem from="1701672289624" duration="259000" />
+      <workItem from="1701755205734" duration="50000" />
+      <workItem from="1701911020902" duration="3851000" />
     </task>
     <servers />
   </component>

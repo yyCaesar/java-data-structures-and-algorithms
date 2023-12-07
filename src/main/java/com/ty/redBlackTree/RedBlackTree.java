@@ -1,10 +1,87 @@
 package com.ty.redBlackTree;
 
-import javafx.scene.Parent;
-
 public class RedBlackTree {
 
-    private RedBlackTree root;
+    private Node root;
+
+
+    /**
+     * 判断节点是否是红色
+     */
+    boolean isRed(Node node) {
+        return node != null && node.color == Color.RED;
+    }
+
+    /**
+     * 判断节点是否是黑色
+     */
+    boolean isBlack(Node node) {
+//            return !isRed(node);
+        return node == null || node.color == Color.BLACK;
+    }
+
+
+    /**
+     * 左旋
+     */
+    private void leftRotate(Node node) {
+        Node currentParent = node.parent;
+        Node theFutureParent = node.right;
+        Node theFutureGrandson = theFutureParent.left;
+
+        if (theFutureGrandson != null){
+            theFutureGrandson.parent = node;
+        }
+
+        theFutureParent.left = node;
+        theFutureParent.parent = currentParent;
+
+        node.right = theFutureGrandson;
+        node.parent = theFutureParent;
+        
+        if (currentParent == null){
+            root = theFutureParent;
+        } else if (currentParent.left == node) {
+            currentParent.left = theFutureParent;
+        } else {
+            currentParent.right = theFutureParent;
+        }
+    }
+
+
+    /**
+     * 右旋
+     * 1.parent节点处理
+     * 2.旋转后新根的父子关系
+     */
+    private void rightRotate(Node node) {
+
+        //当前节点的左节点 => 未来的根节点
+        //当前节点 => 未来根节点的右节点
+        //当前节点的左节点的右节点 => 未来根节点的右节点的左节点
+
+        Node currentParent = node.parent;
+        Node theFutureParent = node.left;
+        Node theFutureGrandSon = theFutureParent.right;
+
+        if (theFutureGrandSon != null) {
+            theFutureGrandSon.parent = node;
+        }
+
+        theFutureParent.right = node;
+        theFutureParent.parent = currentParent;
+
+        node.left = theFutureGrandSon;
+        node.parent = theFutureParent;
+
+        if (currentParent == null) {
+            root = theFutureParent;
+        } else if (currentParent.left == node) {
+            currentParent.left = theFutureParent;
+        } else {
+            currentParent.right = theFutureParent;
+        }
+    }
 
 
     private static class Node {
@@ -53,21 +130,6 @@ public class RedBlackTree {
         //             3     9
         //         1(自身)
 
-
-        /**
-         * 判断节点是否是红色
-         * */
-        boolean isRed(Node node) {
-            return node != null && node.color == Color.RED;
-        }
-
-        /**
-         * 判断节点是否是黑色
-         * */
-        boolean isBlack(Node node) {
-//            return !isRed(node);
-            return node == null || node.color == Color.BLACK;
-        }
 
         /**
          * 是否是左孩子
