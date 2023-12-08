@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/linkedList/SingleLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/linkedList/TestSingleLinkedListSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/linkedList/DoubleLinkedListSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/linkedList/TestDoubleLinkedListSentinel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +63,18 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSingleLinkedListSentinel.test">
-    <configuration name="TestLeetCode.postfixExpressions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDoubleLinkedListSentinel.test">
+    <configuration name="TestDoubleLinkedListSentinel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.binaryTree.*" />
+          <option name="PATTERN" value="com.ty.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ty.binaryTree" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.binaryTree.TestLeetCode" />
-      <option name="METHOD_NAME" value="postfixExpressions" />
+      <option name="PACKAGE_NAME" value="com.ty.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.linkedList.TestDoubleLinkedListSentinel" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDoubleLinkedListSentinel.test" />
         <item itemvalue="JUnit.TestSingleLinkedListSentinel.test" />
         <item itemvalue="JUnit.TestSingleLinkedList.addFirst" />
         <item itemvalue="JUnit.TestRecursionFunc.insertion" />
         <item itemvalue="JUnit.TestLeetCode.sequencePrint" />
-        <item itemvalue="JUnit.TestLeetCode.postfixExpressions" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1701246438404" duration="14130000" />
       <workItem from="1701672289624" duration="259000" />
       <workItem from="1701755205734" duration="50000" />
-      <workItem from="1701911020902" duration="7052000" />
+      <workItem from="1701911020902" duration="13435000" />
     </task>
     <servers />
   </component>
