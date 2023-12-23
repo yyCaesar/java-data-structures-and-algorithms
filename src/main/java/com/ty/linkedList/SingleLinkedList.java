@@ -1,5 +1,6 @@
 package com.ty.linkedList;
 
+
 /**
  * 单向链表
  */
@@ -93,7 +94,7 @@ public class SingleLinkedList {
 
     }
 
-    private static class Node {
+    public static class Node {
         int value;
         Node next;
 

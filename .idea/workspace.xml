@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/linkedList/RingLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/linkedList/TestRingLinkedListSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/linkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/linkedList/SingleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,82 +64,82 @@
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRingLinkedListSentinel.test">
-    <configuration name="TestDoubleLinkedListSentinel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestLinkedList.leetCode_160_4">
+    <configuration name="TestLinkedList.arrayToListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.linkedList.*" />
+          <option name="PATTERN" value="com.ty.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ty.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.linkedList.TestDoubleLinkedListSentinel" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
+      <option name="METHOD_NAME" value="arrayToListNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRecursionFunc.insertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.leetCode_160_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.recursion.*" />
+          <option name="PATTERN" value="com.ty.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ty.recursion" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.recursion.TestRecursionFunc" />
-      <option name="METHOD_NAME" value="insertion" />
+      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
+      <option name="METHOD_NAME" value="leetCode_160_1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRingLinkedListSentinel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.leetCode_160_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.linkedList.*" />
+          <option name="PATTERN" value="com.ty.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ty.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.linkedList.TestRingLinkedListSentinel" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
+      <option name="METHOD_NAME" value="leetCode_160_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleLinkedListSentinel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.leetCode_160_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.linkedList.*" />
+          <option name="PATTERN" value="com.ty.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ty.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.linkedList.TestSingleLinkedListSentinel" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
+      <option name="METHOD_NAME" value="leetCode_160_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleLinkedList.addFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.leetCode_160_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ty.linkedList.*" />
+          <option name="PATTERN" value="com.ty.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ty.linkedList" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.linkedList.TestSingleLinkedList" />
-      <option name="METHOD_NAME" value="addFirst" />
+      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
+      <option name="METHOD_NAME" value="leetCode_160_4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRingLinkedListSentinel.test" />
-        <item itemvalue="JUnit.TestDoubleLinkedListSentinel.test" />
-        <item itemvalue="JUnit.TestSingleLinkedListSentinel.test" />
-        <item itemvalue="JUnit.TestSingleLinkedList.addFirst" />
-        <item itemvalue="JUnit.TestRecursionFunc.insertion" />
+        <item itemvalue="JUnit.TestLinkedList.leetCode_160_4" />
+        <item itemvalue="JUnit.TestLinkedList.leetCode_160_3" />
+        <item itemvalue="JUnit.TestLinkedList.leetCode_160_2" />
+        <item itemvalue="JUnit.TestLinkedList.leetCode_160_1" />
+        <item itemvalue="JUnit.TestLinkedList.arrayToListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,9 @@
       <workItem from="1701246438404" duration="14130000" />
       <workItem from="1701672289624" duration="259000" />
       <workItem from="1701755205734" duration="50000" />
-      <workItem from="1701911020902" duration="18021000" />
+      <workItem from="1701911020902" duration="26503000" />
+      <workItem from="1702971190377" duration="2711000" />
+      <workItem from="1703057807177" duration="21667000" />
     </task>
     <servers />
   </component>
@@ -225,17 +228,67 @@
           <line>12</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>478</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>453</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>346</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>490</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>411</line>
+          <properties class="com.ty.leetcode.linkedList" method="deleteDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>371</line>
+          <properties class="com.ty.leetcode.linkedList" method="deleteDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.ty.binaryTree.TreeNode" memberName="left" />
         <PinnedItemInfo parentTag="com.ty.linkedList.RingLinkedListSentinel$Node" memberName="value" />
+        <PinnedItemInfo parentTag="com.ty.leetcode.linkedList$ListNode" memberName="val" />
         <PinnedItemInfo parentTag="com.ty.binaryTree.TreeNode" memberName="right" />
+        <PinnedItemInfo parentTag="com.ty.leetcode.linkedList$ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
