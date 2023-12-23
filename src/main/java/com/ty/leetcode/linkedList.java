@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class linkedList {
 
-    public static linkedList singleton;
+    private static linkedList singleton;
 
     public linkedList() {
     }
@@ -22,40 +22,25 @@ public class linkedList {
         return singleton;
     }
 
-    /**
-     * 数组转链表1
-     */
-    public ListNode arrayToListNode1(int[] arr) {
-        ListNode node = null;
-        for (int i = arr.length - 1; i >= 0; i--) {
-            node = new ListNode(arr[i], node);
-        }
-        return node;
-    }
 
     /**
-     * 数组转链表2
+     * 环形链表_(快慢指针)
      */
-    public ListNode arrayToListNode2(int[] arr) {
-        ListNode sentinel = new ListNode(-1);
-        ListNode temp = sentinel;
-        for (int i = 0;i<arr.length -1 ;i++) {
-            ListNode newNode = new ListNode(arr[i]);
-            temp.next = newNode;
-            temp = newNode;
-        }
-        return sentinel;
-    }
+    public boolean leetCode_141(ListNode head) {
 
-    /**
-     * 打印链表节点值
-     */
-    public void print(ListNode node) {
-        System.out.println("====start print====");
-        while (node != null) {
-            System.out.println(node.val);
-            node = node.next;
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while (fast != null && fast.next != null){
+
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow){
+                return true;
+            }
         }
+        return false;
     }
 
 
@@ -208,7 +193,7 @@ public class linkedList {
                 fast = node1;
 
                 while (fast != null && fast.next != null) {
-                    if (fast == slow){
+                    if (fast == slow) {
                         curA.next = null;
                         return fast;
                     }
@@ -223,7 +208,6 @@ public class linkedList {
         return null;
     }
 
-
     private int leetCode_160_1_getLength(ListNode node) {
         int length = 0;
         while (node != null) {
@@ -232,7 +216,6 @@ public class linkedList {
         }
         return length;
     }
-
 
     public ListNode isPalindrome_Node1() {
         ListNode listNode1 = new ListNode(1);
@@ -251,9 +234,9 @@ public class linkedList {
         // millde = 2 1
         // reverse = 1 2
         ListNode middle = this.middle(head);
-        print(middle);
+
         ListNode reverse = this.reverse(middle);
-        print(reverse);
+
 
         if (reverse != null) {
             while (reverse != null) {
@@ -488,7 +471,7 @@ public class linkedList {
         }
     }
 
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 

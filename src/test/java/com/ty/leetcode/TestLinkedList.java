@@ -9,9 +9,24 @@ import java.util.List;
 public class TestLinkedList {
 
     @Test
-    public void arrayToListNode() {
-        int[] arr = new int[]{1, 2, 3};
-        linkedList.ListNode node = linkedList.getInstance().arrayToListNode1(arr);
+    public void arrayToListNode_Test() {
+        int[] arr = new int[]{12, 21, 32};
+        linkedList.ListNode node = ToolMethod.getInstance().arrayToListNode2(arr);
+        ToolMethod.getInstance().print(node);
+    }
+
+    @Test
+    public void leetCode_141() {
+        int[] arr1 = new int[]{1, 2, 3};
+        int[] arr2 = new int[]{4, 5, 7};
+        int[] arr3 = new int[]{10, 11, 12};
+
+        linkedList.ListNode node1 = ToolMethod.getInstance().arrayToListNode1(arr1);
+        linkedList.ListNode node2 = ToolMethod.getInstance().arrayToListNode1(arr2);
+        linkedList.ListNode node3 = ToolMethod.getInstance().arrayToListNode1(arr3);
+        linkedList.ListNode node = ToolMethod.getInstance().setCycleNode(node1, node2, node3);
+        boolean result = linkedList.getInstance().leetCode_141(node);
+        System.out.println(result);
     }
 
     @Test
@@ -23,9 +38,8 @@ public class TestLinkedList {
         linkedList.ListNode node2 = list.get(1).head.next;
 
         linkedList.ListNode result = linkedList.getInstance().leetCode_160_1(node1, node2);
-        linkedList.getInstance().print(result);
+        ToolMethod.getInstance().print(result);
     }
-
 
     @Test
     public void leetCode_160_2() {
@@ -36,7 +50,7 @@ public class TestLinkedList {
         linkedList.ListNode node2 = list.get(1).head.next;
 
         linkedList.ListNode result = linkedList.getInstance().leetCode_160_2(node1, node2);
-        linkedList.getInstance().print(result);
+        ToolMethod.getInstance().print(result);
     }
 
     @Test
@@ -48,7 +62,7 @@ public class TestLinkedList {
         linkedList.ListNode node2 = list.get(1).head.next;
 
         linkedList.ListNode result = linkedList.getInstance().leetCode_160_3(node1, node2);
-        linkedList.getInstance().print(result);
+        ToolMethod.getInstance().print(result);
     }
 
     @Test
@@ -64,13 +78,13 @@ public class TestLinkedList {
         int[] arr1 = new int[]{1, 2, 3};
         int[] arr2 = new int[]{10, 11, 12};
 
-        linkedList.ListNode node1 = linkedList.getInstance().arrayToListNode1(arr1);
-        linkedList.ListNode node2 = linkedList.getInstance().arrayToListNode1(arr2);
+        linkedList.ListNode node1 = ToolMethod.getInstance().arrayToListNode1(arr1);
+        linkedList.ListNode node2 = ToolMethod.getInstance().arrayToListNode1(arr2);
 
         node2.next = node1;
 
         linkedList.ListNode result = linkedList.getInstance().leetCode_160_4(node1, node2);
-        linkedList.getInstance().print(result);
+        ToolMethod.getInstance().print(result);
     }
 
 
