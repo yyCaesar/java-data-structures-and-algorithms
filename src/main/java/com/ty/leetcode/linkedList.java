@@ -23,20 +23,79 @@ public class linkedList {
     }
 
 
+    //=================================================================
+    //=============================current=============================
+    //=================================================================
+
     /**
-     * 环形链表_(快慢指针)
+     * 反转链表_(递归实现)
+     */
+    public ListNode leetCode_24_1(ListNode head) {
+
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        int headLength = ToolMethod.getInstance().getNodeLength(head);
+        System.out.println("递head:" + head.val + "长度:" + headLength);
+
+        ListNode node = leetCode_24_1(head.next);
+
+        int nodeLength = ToolMethod.getInstance().getNodeLength(node);
+        System.out.println("归node:" + node.val + "长度:" + nodeLength);
+
+        head.next.next = head;
+        head.next = null;
+
+        return node;
+    }
+
+
+    /**
+     * 环形链表_(环的节点是哪个节点，快慢指针)
+     */
+    public ListNode leetCode_142(ListNode head) {
+        int count = 0;
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow) {
+                fast = head;
+                while (true) {
+                    count++;
+                    if (fast == slow) {
+                        return fast;
+                    }
+                    fast = fast.next;
+                    slow = slow.next;
+
+                }
+            }
+
+        }
+
+        return null;
+    }
+
+
+    /**
+     * 环形链表_(是否是环形节点，快慢指针)
      */
     public boolean leetCode_141(ListNode head) {
 
         ListNode fast = head;
         ListNode slow = head;
 
-        while (fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
 
             fast = fast.next.next;
             slow = slow.next;
 
-            if (fast == slow){
+            if (fast == slow) {
                 return true;
             }
         }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3d9a25-d318-40e0-9122-840d8aee9bed" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ty/leetcode/ToolMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/leetcode/ToolMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/leetcode/ToolMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java" afterDir="false" />
     </list>
@@ -35,36 +35,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms/data-structures-and-algorithms/src/main/java/com/ty/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/F/git_commit/github_commit_code/java-data-structures-and-algorithms/data-structures-and-algorithms/src/main/java/com/ty/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms\src\test" />
       <recent name="C:\F\git_commit\github_commit_code\java-data-structures-and-algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLinkedList.leetCode_141">
+  <component name="RunManager" selected="JUnit.TestLinkedList.leetCode_24_1">
     <configuration name="TestLinkedList.arrayToListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
@@ -97,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.leetCode_160_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.leetCode_142" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -107,23 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ty.leetcode" />
       <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
-      <option name="METHOD_NAME" value="leetCode_160_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLinkedList.leetCode_160_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ty.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
-      <option name="METHOD_NAME" value="leetCode_160_3" />
+      <option name="METHOD_NAME" value="leetCode_142" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,13 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLinkedList.leetCode_24_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ty.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ty.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.ty.leetcode.TestLinkedList" />
+      <option name="METHOD_NAME" value="leetCode_24_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLinkedList.leetCode_24_1" />
+        <item itemvalue="JUnit.TestLinkedList.leetCode_142" />
         <item itemvalue="JUnit.TestLinkedList.leetCode_141" />
         <item itemvalue="JUnit.TestLinkedList.arrayToListNode" />
         <item itemvalue="JUnit.TestLinkedList.leetCode_160_4" />
-        <item itemvalue="JUnit.TestLinkedList.leetCode_160_3" />
-        <item itemvalue="JUnit.TestLinkedList.leetCode_160_2" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,8 @@
       <workItem from="1701755205734" duration="50000" />
       <workItem from="1701911020902" duration="26503000" />
       <workItem from="1702971190377" duration="2711000" />
-      <workItem from="1703057807177" duration="24823000" />
+      <workItem from="1703057807177" duration="32970000" />
+      <workItem from="1703486547458" duration="368000" />
     </task>
     <servers />
   </component>
@@ -230,38 +231,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
-          <line>461</line>
+          <line>520</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
-          <line>436</line>
+          <line>495</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java</url>
-          <line>120</line>
+          <line>150</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java</url>
-          <line>128</line>
+          <line>158</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
-          <line>329</line>
+          <line>388</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
-          <line>473</line>
+          <line>532</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ty/leetcode/TestLinkedList.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="75" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
@@ -269,7 +275,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
-          <line>394</line>
+          <line>453</line>
           <properties class="com.ty.leetcode.linkedList" method="deleteDuplicates">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -278,7 +284,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ty/leetcode/linkedList.java</url>
-          <line>354</line>
+          <line>413</line>
           <properties class="com.ty.leetcode.linkedList" method="deleteDuplicates">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -291,10 +297,14 @@
       <pinned-members>
         <PinnedItemInfo parentTag="com.ty.binaryTree.TreeNode" memberName="left" />
         <PinnedItemInfo parentTag="com.ty.linkedList.RingLinkedListSentinel$Node" memberName="value" />
-        <PinnedItemInfo parentTag="com.ty.leetcode.linkedList$ListNode" memberName="val" />
         <PinnedItemInfo parentTag="com.ty.binaryTree.TreeNode" memberName="right" />
         <PinnedItemInfo parentTag="com.ty.leetcode.linkedList$ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="result.next.next.next.next" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

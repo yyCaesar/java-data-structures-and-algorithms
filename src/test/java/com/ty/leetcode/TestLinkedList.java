@@ -8,11 +8,44 @@ import java.util.List;
 
 public class TestLinkedList {
 
+    private linkedList _linkedList() {
+        return linkedList.getInstance();
+    }
+
+    private ToolMethod _toolMethod(){
+        return ToolMethod.getInstance();
+    }
+
+
     @Test
     public void arrayToListNode_Test() {
         int[] arr = new int[]{12, 21, 32};
-        linkedList.ListNode node = ToolMethod.getInstance().arrayToListNode2(arr);
-        ToolMethod.getInstance().print(node);
+        linkedList.ListNode node = _toolMethod().arrayToListNode2(arr);
+        _toolMethod().print(node);
+    }
+
+    //======================================
+
+
+    @Test
+    public void leetCode_24_1() {
+        int[] arr1 = new int[]{1, 2, 3, 4, 5};
+        linkedList.ListNode node1 = _toolMethod().arrayToListNode1(arr1);
+        linkedList.ListNode result = _linkedList().leetCode_24_1(node1);
+    }
+    @Test
+    public void leetCode_142() {
+
+        int[] arr1 = new int[]{5, 3, 2, 7};
+        int[] arr2 = new int[]{1, 6, 8};
+        int[] arr3 = new int[]{9, 4};
+
+        linkedList.ListNode node1 = ToolMethod.getInstance().arrayToListNode1(arr1);
+        linkedList.ListNode node2 = ToolMethod.getInstance().arrayToListNode1(arr2);
+        linkedList.ListNode node3 = ToolMethod.getInstance().arrayToListNode1(arr3);
+        linkedList.ListNode node = ToolMethod.getInstance().setCycleNode(node1, node2, node3);
+
+        linkedList.ListNode result = linkedList.getInstance().leetCode_142(node1);
     }
 
     @Test
@@ -124,6 +157,7 @@ public class TestLinkedList {
         com.ty.leetcode.linkedList.ListNode node = linkedList.getListNode();
         com.ty.leetcode.linkedList.ListNode result = linkedList.reverseList(node);
     }
+
 
 
 }

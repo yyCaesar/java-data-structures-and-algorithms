@@ -88,6 +88,14 @@ public class ToolMethod {
         }
     }
 
+    public int getNodeLength(linkedList.ListNode node) {
+        int length = 0;
+        while (node != null) {
+            node = node.next;
+            length++;
+        }
+        return length;
+    }
 
 
 
