@@ -35,7 +35,7 @@ public class ToolMethod {
             temp.next = newNode;
             temp = newNode;
         }
-        return sentinel;
+        return sentinel.next;
     }
 
     /**

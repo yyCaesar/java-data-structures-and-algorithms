@@ -27,6 +27,159 @@ public class linkedList {
     //=============================current=============================
     //=================================================================
 
+    int leetCode_kthToLast_count = 0;
+
+    public int leetCode_kthToLast_1(ListNode head, int k) {
+
+        if (head == null) {
+            return 0;
+        }
+        System.out.println(head.val);
+        int val = leetCode_kthToLast_1(head.next, k);
+        leetCode_kthToLast_count++;
+
+        if (leetCode_kthToLast_count < k) {
+            return 0;
+        } else if (leetCode_kthToLast_count == k) {
+            return head.val;
+        } else {
+            return val;
+        }
+
+    }
+
+
+    /**
+     * 移除未排序的链表的重复节点（hashSet）
+     */
+    public ListNode leetCode_removeDuplicateNodes_2(ListNode head) {
+
+        int[] bits = new int[20000 / 32 + 1];
+
+        ListNode cur = head;
+
+        while (cur != null && cur.next != null) {
+
+            bits[cur.val / 32] |= 1 << (cur.val % 32);
+
+            if ((bits[cur.next.val / 32] & (1 << (cur.next.val % 32))) != 0) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+
+        return head;
+    }
+
+
+    /**
+     * 移除未排序的链表的重复节点（hashSet）
+     */
+    public ListNode leetCode_removeDuplicateNodes_1(ListNode head) {
+
+        Set<Integer> set = new HashSet<>();
+        ListNode cur = head;
+        while (cur != null && cur.next != null) {
+            set.add(cur.val);
+            if (set.contains(cur.next.val)) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+
+        return head;
+
+    }
+
+
+    /**
+     * 训练计划 IV
+     */
+    public ListNode leetCode_142_trainningPlan_1(ListNode l1, ListNode l2) {
+        if (l1 == null && l2 == null) {
+            return null;
+        }
+
+        ListNode node = new ListNode(-1);
+        ListNode cur = node;
+        ListNode point1 = l1;
+        ListNode point2 = l2;
+
+        while (point1 != null && point2 != null) {
+
+            if (point1.val < point2.val) {
+                cur.next = point1;
+                point1 = point1.next;
+            } else {
+                cur.next = point2;
+                point2 = point2.next;
+            }
+            cur = cur.next;
+        }
+
+        if (point1 != null) {
+            cur.next = point1;
+        }
+
+        if (point2 != null) {
+            cur.next = point2;
+        }
+
+        return node.next;
+    }
+
+    /**
+     * 训练计划 II（顺序查找）
+     */
+    public ListNode leetCode_140_trainingPlan_2(ListNode head, int cnt) {
+
+        //先计算链表长度
+        //长度-- = cnt
+
+        int length = 0;
+        ListNode node = head;
+
+        while (node != null) {
+            length++;
+            node = node.next;
+        }
+
+        node = head;
+        for (int i = length; i > cnt; i--) {
+            node = node.next;
+        }
+
+        return node;
+    }
+
+    /**
+     * 训练计划 II（快慢指针）
+     */
+    public ListNode leetCode_140_trainingPlan_1(ListNode head, int cnt) {
+        //                              p1
+        //                         p2
+        //  2     4       7        8    null
+
+        if (head == null) {
+            return null;
+        }
+
+        ListNode before = head;
+        ListNode after = head;
+        for (int i = 0; i < cnt; i++) {
+            before = before.next;
+        }
+
+        while (before != null) {
+            before = before.next;
+            after = after.next;
+        }
+
+        return after;
+    }
+
     /**
      * 反转链表_(递归实现)
      */
@@ -49,7 +202,6 @@ public class linkedList {
 
         return node;
     }
-
 
     /**
      * 环形链表_(环的节点是哪个节点，快慢指针)
@@ -81,7 +233,6 @@ public class linkedList {
         return null;
     }
 
-
     /**
      * 环形链表_(是否是环形节点，快慢指针)
      */
@@ -102,7 +253,6 @@ public class linkedList {
         return false;
     }
 
-
     public List<MyLinkList> leetCode_160_Node() {
         // lsit1:   4 1 8 4 5
         // list2: 5 0 1 8 4 5
@@ -121,7 +271,7 @@ public class linkedList {
         list2.add(new ListNode(5));
         list2.add(new ListNode(0));
         list2.add(new ListNode(1));
-        list2.add(node8);
+//        list2.add(node8);
 
         List<MyLinkList> list = new ArrayList<>();
         list.add(list1);
@@ -189,6 +339,7 @@ public class linkedList {
         ListNode pointB = node2;
 
         //如果不相等则一直比对
+        //若不想交，则一定都会非空，退出。
         while (pointA != pointB) {
             pointA = pointA != null ? pointA.next : node2;
             pointB = pointB != null ? pointB.next : node1;

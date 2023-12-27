@@ -12,20 +12,59 @@ public class TestLinkedList {
         return linkedList.getInstance();
     }
 
-    private ToolMethod _toolMethod(){
+    private ToolMethod _toolMethod() {
         return ToolMethod.getInstance();
     }
 
 
     @Test
-    public void arrayToListNode_Test() {
-        int[] arr = new int[]{12, 21, 32};
-        linkedList.ListNode node = _toolMethod().arrayToListNode2(arr);
-        _toolMethod().print(node);
+    public void Test() {
+
+        int a = 35;
+        int a_1 = 35 / 32;
+
+        int b = 35 % 32;
+        int b_1 = 1 << b;
+
     }
 
     //======================================
 
+    @Test
+    public void leetCode_kthToLast(){
+        int[] arr1 = new int[]{1, 2, 3, 4,  5};
+        linkedList.ListNode node1 = _toolMethod().arrayToListNode2(arr1);
+        _linkedList().leetCode_kthToLast_1(node1,2);
+
+    }
+
+    @Test
+    public void leetCode_removeDuplicateNodes() {
+        int[] arr1 = new int[]{1, 2, 3, 3, 2, 1};
+        linkedList.ListNode node1 = _toolMethod().arrayToListNode2(arr1);
+        linkedList.ListNode result = _linkedList().leetCode_removeDuplicateNodes_2(node1);
+        _toolMethod().print(result);
+    }
+
+
+    @Test
+    public void leetCode_142_trainningPlan_1() {
+        int[] arr1 = new int[]{1, 2, 4};
+        int[] arr2 = new int[]{1, 3, 4};
+        linkedList.ListNode node1 = _toolMethod().arrayToListNode2(arr1);
+        linkedList.ListNode node2 = _toolMethod().arrayToListNode2(arr2);
+        linkedList.ListNode result = _linkedList().leetCode_142_trainningPlan_1(node1, node2);
+        _toolMethod().print(result);
+    }
+
+
+    @Test
+    public void leetCode_140_trainingPlan() {
+        int[] arr = new int[]{2, 4, 7, 8};
+        linkedList.ListNode node = _toolMethod().arrayToListNode2(arr);
+        linkedList.ListNode result = _linkedList().leetCode_140_trainingPlan_2(node, 1);
+        _toolMethod().print(result);
+    }
 
     @Test
     public void leetCode_24_1() {
@@ -33,6 +72,7 @@ public class TestLinkedList {
         linkedList.ListNode node1 = _toolMethod().arrayToListNode1(arr1);
         linkedList.ListNode result = _linkedList().leetCode_24_1(node1);
     }
+
     @Test
     public void leetCode_142() {
 
@@ -157,7 +197,6 @@ public class TestLinkedList {
         com.ty.leetcode.linkedList.ListNode node = linkedList.getListNode();
         com.ty.leetcode.linkedList.ListNode result = linkedList.reverseList(node);
     }
-
 
 
 }
